@@ -14,6 +14,9 @@ public class ClientDAOImpl implements ClientDAO {
         this.conn = conn;
     }
 
+
+
+
     @Override
     public void createTable() {
         try {
